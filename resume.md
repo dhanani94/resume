@@ -3,32 +3,24 @@
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- <dhanani94@mail.com>
+- <dhanani94@gmail.com>
 - (404) 918-4706
 - [me.dhanani94.com](http://me.dhanani94.com)
 - Boston, MA
-
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
 
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>CEO/President, Pied Piper</span> <span>Dec 2013 -- Dec 2014</span>
-
-Pied Piper is a multi-platform technology based on a proprietary universal
-compression algorithm that has consistently fielded high Weisman Scores™ that
-are not merely competitive, but approach the theoretical limit of lossless
-compression.
-
- - Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws
- - Successfully won Techcrunch Disrupt
- - Optimized an algorithm that holds the current world record for Weisman Scores
+### <span>Sr. Analytics Engineer, Avitas a Baker Hughes Venture</span> <span>Feb 2018 -- Present</span>
+− Architected and implemented a cloud computer vision system to use aerial and stationary sensor data to detect and quantify 
+methane emissions, oil leaks, and other inspection items for the O&G industry. Deployed on AWS using Docker and Kubernetes 
+that is configurable by customer need and resources are spun up on demand for cost-savings and maximum scalability.  
+− Created efficient algorithms such as semantically fusing 2D aerial imagery detection with 3D assets in the real world using deep 
+learning, multi-camera geometry, and Hungarian matching. Models were trained using state of the art algorithms using 
+PyTorch, TensorFlow, and Darknet.  
+− Scrum Master for the machine learning team and the computer vision team as well as liaison between the application platform 
+team and the analytics team. 
 
 ### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
 
@@ -54,7 +46,17 @@ A mapping engine that misguides you:
   - DB1101 - Basic SQL
   - CS2011 - Java Introduction
 
+## Projects
+
+ - Web development: HTML, CSS, JavaScript
+ - Compression: Mpeg, MP4, GIF
+
 ## Skills
+
+ - Web development: HTML, CSS, JavaScript
+ - Compression: Mpeg, MP4, GIF
+
+## Additional Roles and Experiences
 
  - Web development: HTML, CSS, JavaScript
  - Compression: Mpeg, MP4, GIF
