@@ -1,26 +1,17 @@
 
-a:link, a:visited, a:hover, a:active{
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
 }
 
-/*a:visited {*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*a:hover {*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*a:active {*/
-/*    text-decoration: none;*/
-/*}*/
-
 body {
     color: #000000;
     background: #EEEEEE;
-    /*font: 1.1em;*/
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Poppins', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
     line-height: 1.2;
     margin: 40px 0;
 }

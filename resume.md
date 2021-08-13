@@ -37,11 +37,8 @@ benchmarked to be eleven times faster than the company’s previous solution.
 
 ### <span>Quanty Bot</span> <span>Aug 2021</span>
 
-A mapping engine that misguides you:
-
-   - Won award at AIHacks 2016
-   - Built by all women team of newbie programmers
-   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+A slack bot that is able to execute trades on over 15 accounts using APIs and Selenium automations. The bot can scrape 
+FINRA/EDGAR data, read/update Google Sheets, query Reddit and suggest trades to queue. 
 
 ### <span>Image Captioning and Dalle </span> <span>March 2021</span>
 
@@ -51,6 +48,7 @@ A mapping engine that misguides you:
 Computational Perception and Robotics Specialization, GPA: 3.8/4.0
 ### <span>Georgia Institute of Technology, Bachelor of Science in Computer Science </span> <span>2012 -- 2016</span>
 Info Internetworks and People Threads, GPA: 3.8/4.0
+
 Faculty Honors and Dean’s List 
 
 ## Skills
