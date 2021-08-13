@@ -22,15 +22,20 @@ PyTorch, TensorFlow, and Darknet.
 − Scrum Master for the machine learning team and the computer vision team as well as liaison between the application platform 
 team and the analytics team. 
 
-### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
+### <span>Digital Technology Leadership Program, General Electric</span> <span>July 2016 -- Feb 2018</span>
 
-Global movement of free coding clubs for young people.
+− Created predictive models using support vector machines in for time series data from industrial assets to reduce unplanned 
+equipment downtime months in advance. 
+− Created a package to encrypt, transfer and store highly sensitive industrial data without foregoing efficiency that was 
+benchmarked to be eleven times faster than the company’s previous solution.   
 
- - Awarded 'Teacher of the Month'
+### <span>Software Engineer Intern, Visa </span> <span>June 2015 -- Aug 2015</span>
+
+- Developed a full stack web application for internal atomization using Angular, Express, and DB2 for clearing and settlements.
 
 ## Projects
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
+### <span>Quanty Bot</span> <span>Aug 2021</span>
 
 A mapping engine that misguides you:
 
@@ -38,25 +43,39 @@ A mapping engine that misguides you:
    - Built by all women team of newbie programmers
    - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
 
+### <span>Image Captioning and Dalle </span> <span>March 2021</span>
+
 ## Education
 
-### <span>University of Oklahoma, BA Information Technology</span> <span>2011 -- 2014</span>
-
-  - GPA 4.0
-  - DB1101 - Basic SQL
-  - CS2011 - Java Introduction
-
-## Projects
-
- - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
+### <span>Georgia Institute of Technology, Master of Science in Computer Science</span> <span>2017 -- 2021</span>
+Computational Perception and Robotics Specialization, GPA: 3.8/4.0
+### <span>Georgia Institute of Technology, Bachelor of Science in Computer Science </span> <span>2012 -- 2016</span>
+Info Internetworks and People Threads, GPA: 3.8/4.0
+Faculty Honors and Dean’s List 
 
 ## Skills
 
- - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
+**Programming**: Python (Numpy, Pandas, PyTorch, OpenCV), Java (Spring Boot), SQL, ZSH/Bash 
+
+**Technologies**: AWS, Kubernetes, Docker, Unix, Postgres, Redis, RabbitMQ
+
+**Design**: Final Cut Pro, Adobe CC (Photoshop, After Effects, Illustrator, Lightroom, Premier)
+
 
 ## Additional Roles and Experiences
 
- - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
+### <span>Camp CONNECT – Virtual</span> <span>December 2020 – July 2021</span>
+Group facilitator for a virtual camp that created a safe space for high school students to explore concepts relating to the theme of 
+Climate Change and Environmental Action as well as express themselves and build bonds with their peers from 37 different countries. 
+
+### <span>AKES Winter Upgrade Program Teacher – Khorog, Tajikistan</span> <span>December 2018 – January 2019</span>
+Group facilitator for college students that engage in multiple service opportunities for the City of Los Angeles and participate in 
+discussions that expose the multidimensionality of problems such as homelessness, food shortages, and refugee crises. 
+
+### <span>iCodeCamp.github.io Teacher – Chicago, Illinois</span> <span>December 2017 – January 2018</span>
+Created and delivered two six-week curriculums for high school girls and boys to learn about the awesomeness of computer science and 
+software engineering. 
+
+### <span>Alternative Winter Break Facilitator – Los Angeles, California</span> <span>January 2017</span>
+Group facilitator for college students that engage in multiple service opportunities for the City of Los Angeles and participate in 
+discussions that expose the multidimensionality of problems such as homelessness, food shortages, and refugee crises.
