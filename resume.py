@@ -25,6 +25,7 @@ preamble = """\
 </head>
 <body>
 <div id="resume">
+<div class="qr_code"><img src="../resources/qr_code.png" alt="me.dhanani94.com"></div>
 """
 
 postamble = """\
@@ -97,18 +98,22 @@ def title(md: str) -> str:
     raise ValueError("Cannot find any lines that look like markdown headings")
 
 
-def make_html(md: str, prefix: str = "resume") -> str:
+def make_html(markdown_path: str, css_path: str) -> str:
     """
     Compile md to HTML and prepend/append preamble/postamble.
 
     Insert <prefix>.css if it exists.
     """
     try:
-        with open(prefix + ".css") as cssfp:
+        with open(css_path) as cssfp:
             css = cssfp.read()
     except FileNotFoundError:
-        print(prefix + ".css not found. Output will by unstyled.")
+        print(f"{css_path} not found. Output will by unstyled.")
         css = ""
+
+    with open(markdown_path, encoding="utf-8") as mdfp:
+        md = mdfp.read()
+
     return "".join(
         (
             preamble.format(title=title(md), css=css),
@@ -118,7 +123,7 @@ def make_html(md: str, prefix: str = "resume") -> str:
     )
 
 
-def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
+def write_pdf(html: str, pdf_output: str, chrome: str = "") -> None:
     """
     Write html to prefix.pdf
     """
@@ -143,17 +148,17 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             [
                 chrome,
                 *options,
-                f"--print-to-pdf={prefix}.pdf",
+                f"--print-to-pdf={pdf_output}",
                 "data:text/html;base64," + html64.decode("utf-8"),
             ],
             check=True,
         )
-        logging.info(f"Wrote {prefix}.pdf")
+        logging.info(f"Wrote {pdf_output}")
     except subprocess.CalledProcessError as exc:
         if exc.returncode == -6:
             logging.warning(
                 "Chrome died with <Signals.SIGABRT: 6> "
-                f"but you may find {prefix}.pdf was created successfully."
+                f"but you may find {pdf_output} was created successfully."
             )
         else:
             raise exc
@@ -170,12 +175,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "file",
-        help="markdown input file [resume.md]",
-        default="resume.md",
-        nargs="?",
-    )
+
     parser.add_argument(
         "--no-html",
         help="Do not write html output",
@@ -198,16 +198,12 @@ if __name__ == "__main__":
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    prefix, _ = os.path.splitext(args.file)
-
-    with open(args.file, encoding="utf-8") as mdfp:
-        md = mdfp.read()
-    html = make_html(md, prefix=prefix)
+    html = make_html("./resources/resume.md", "./resources/resume.css")
 
     if not args.no_html:
-        with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
+        with open("./output/resume.html", "w", encoding="utf-8") as htmlfp:
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
     if not args.no_pdf:
-        write_pdf(html, prefix=prefix, chrome=args.chrome_path)
+        write_pdf(html, "./output/resume.pdf", chrome=args.chrome_path)

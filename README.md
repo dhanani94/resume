@@ -1,11 +1,11 @@
 # resume.md
 
-![Resume](resume.png)
+![Resume](resources/resume.png)
 
 Write your resume in
 [Markdown](https://raw.githubusercontent.com/mikepqr/resume.md/main/resume.md),
-style it with [CSS](resume.css), output to [HTML](resume.html) and
-[PDF](resume.pdf).
+style it with [CSS](resources/resume.css), output to [HTML](output/resume.html) and
+[PDF](output/resume.pdf).
 
 ## Prerequisites
 
@@ -16,12 +16,12 @@ style it with [CSS](resume.css), output to [HTML](resume.html) and
 
 ## Usage
 
- 1. Download [resume.py](resume.py), [resume.md](resume.md) and
-    [resume.css](resume.css) (or make a copy of this repository by [using the
+ 1. Download [resume.py](resume.py), [resume.md](resources/resume.md) and
+    [resume.css](resources/resume.css) (or make a copy of this repository by [using the
     template](https://github.com/mikepqr/resume.md/generate), forking, or
     cloning).
 
- 2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
+ 2. Edit [resume.md](resources/resume.md) (the placeholder text is taken with thanks from
     the [JSON Resume Project](https://jsonresume.org/themes/))
 
  3. Run `python3 resume.py` to build resume.html and resume.pdf.
@@ -33,7 +33,7 @@ style it with [CSS](resume.css), output to [HTML](resume.html) and
 
 ## Customization
 
-Edit [resume.css](resume.css) to change the appearance of your resume. The
+Edit [resume.css](resources/resume.css) to change the appearance of your resume. The
 default style is extremely generic, which is perhaps what you want in a resume,
 but CSS gives you a lot of flexibility. See, e.g. [The Tech Resume
 Inside-Out](https://www.thetechinterview.com/) for good advice about what a
