@@ -198,7 +198,7 @@ if __name__ == "__main__":
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    html = make_html("./resources/resume.md", "./resources/resume.css")
+    html = make_html("resume.md", "./resources/resume.css")
 
     if not args.no_html:
         with open("./output/resume.html", "w", encoding="utf-8") as htmlfp:
